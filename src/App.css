@@ -1,0 +1,111 @@
+:root {
+  --bgBlue: #385898;
+  --fontHeader: #ffffff;
+  --boxLeftCorner: #d0d0d0;
+  --boxRightCorner: #f0f0f0;
+  --fontFamily: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  --bgcolorStat: #282c34;
+  --fontStat: #000000;
+  --headColor: red;
+  --bgButtonRed: #ec6464;
+  --bgInputGray: #b4b4b6;
+  --bodyBack: #28c785;
+}
+.headRed {
+  color: var(--headColor);
+  font-weight: bold;
+}
+.AppDevMain {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-self: center;
+  justify-content: center;
+  text-align: center;
+  min-width: 250px;
+}
+body {
+  background-color: var(--bodyBack);
+  font-family: var(--fontFamily);
+  font-size: larger;
+}
+h1 {
+  min-height: 30vh;
+  min-width: 250px;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  margin: 2vw;
+  padding: 0;
+  border-radius: 28px;
+  text-align: center;
+  padding: 3%;
+  background-color: white;
+  font-size: calc(25px + 2vmin);
+  border-radius: 8px;
+  color: #282c34;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 8px 8px 1px var(--boxLeftCorner),
+    -8px -8px 1px var(--boxRightCorner);
+}
+
+h2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #282c34;
+}
+
+.formHeb {
+  direction: rtl;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-self: center;
+}
+.customInput {
+  min-width: 250px;
+  max-width: 500px;
+  min-height: 50px;
+}
+
+.lastDiv {
+  padding-top: 10px;
+}
+
+input {
+  background-color: var(--bgInputGray);
+  border-radius: 8px;
+}
+
+select {
+  background-color: var(--bgInputGray);
+  border-radius: 8px;
+}
+textarea {
+  background-color: var(--bgInputGray);
+  height: 80px;
+  border-radius: 8px;
+}
+.rating {
+  direction: ltr;
+}
+
+fieldset {
+  border-radius: 5px;
+  min-width: 250px;
+  max-width: 500px;
+}
+
+.divPaddingTop {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.customText {
+  color: #ffee00;
+  background-color: #282c34;
+}
